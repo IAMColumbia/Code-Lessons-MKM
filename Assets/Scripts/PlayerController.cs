@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public Vector2 moveInput;
     public float speed = 10.0f;
 
+    public GameObject projectilePrefabs;
+
     // Variable for barriers
     public float xRange = 10.0f;
 
