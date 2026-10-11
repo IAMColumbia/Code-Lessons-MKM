@@ -768,6 +768,25 @@ MonoBehaviour:
   - {fileID: 895296231044821246, guid: fefe0aa5199d0e84ebd9e27caa832655, type: 3}
   - {fileID: 318269347213236778, guid: fafc8c01bd289f04ca90a31fa8396611, type: 3}
   - {fileID: 1967355802527814138, guid: 3bf6927acf4a8e24e9f33762cc4bb215, type: 3}
+  spawnAction:
+    m_Name: Spawn
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2c0e77f3-76c7-46c1-b561-aea989ae19f9
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: e67b0148-b121-4076-8d78-ebc942defb75
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Spawn
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  animalIndex: 0
 --- !u!4 &1387416183
 Transform:
   m_ObjectHideFlags: 0
