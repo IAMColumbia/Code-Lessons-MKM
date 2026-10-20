@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public InputAction fireAction;
 
     // Variable for barriers
-    public float xRange = 10.0f;
+    public float xRange = 20.0f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
