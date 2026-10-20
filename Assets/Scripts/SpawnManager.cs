@@ -21,10 +21,15 @@ public class SpawnManager : MonoBehaviour
     {
         if(spawnAction.triggered)
         {
-            int animalIndex = Random.Range(0, animalPrefabs.Length);
-            Vector3 spawnPosition = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
-
-            Instantiate(animalPrefabs[animalIndex], spawnPosition, animalPrefabs[animalIndex].transform.rotation);
+            SpawnRandomAnimal();
         }
+    }
+
+    void SpawnRandomAnimal()
+    {
+        int animalIndex = Random.Range(0, animalPrefabs.Length);
+        Vector3 spawnPosition = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+
+        Instantiate(animalPrefabs[animalIndex], spawnPosition, animalPrefabs[animalIndex].transform.rotation);
     }
 }
