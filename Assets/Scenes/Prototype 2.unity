@@ -690,8 +690,8 @@ MonoBehaviour:
       m_Flags: 8
     m_Flags: 0
     m_Priority: 0
-  moveInput: {x: 0, y: 0}
-  speed: 10
+  moveInput: {x: 0, y: -0.58}
+  speed: 20
   projectilePrefabs: {fileID: 6087028822435023307, guid: c802988e8988cc041bb9da043b3c8059, type: 3}
   fireAction:
     m_Name: Fire
@@ -711,7 +711,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Flags: 0
     m_Priority: 0
-  xRange: 10
+  xRange: 20
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
